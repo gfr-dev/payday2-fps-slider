@@ -1,0 +1,10 @@
+{
+	"files.associations": {
+		"mod.txt": "json"
+	},
+	"Lua.workspace.library": [
+		"../payday-source/",
+		"../base/"
+	],
+	"Lua.runtime.version": "LuaJIT"
+}

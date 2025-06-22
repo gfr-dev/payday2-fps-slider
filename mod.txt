@@ -1,0 +1,20 @@
+{
+	"name" : "Max FPS Slider",
+	"description" : "Replaces the FPS limit option with a less limited slider",
+	"author" : "TOG II*",
+	"contact" : "",
+	"color" : "0.043 0.808 0.6",
+	"priority" : "0",
+	"version" : "1.0.0",
+	"updates" : [
+		{
+			"identifier" : "fpsslider",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/gfr-dev/payday2-fps-slider/refs/heads/main/update-meta.json"
+			}
+		}
+	],
+	"hooks" : [
+		{ "hook_id":"lib/entry", "script_path": "lua/FPSCapSlider.lua" }
+	]
+}
